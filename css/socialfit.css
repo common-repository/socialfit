@@ -1,0 +1,143 @@
+/*
+	Normal Button
+*/
+
+.socialButton {
+    display: inline-block;
+	margin-left: 8px;
+	vertical-align: top;
+    height: 60px;
+    text-align: center;
+    line-height: normal;
+    padding: 0;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background:url(../img/social.png) 0 0 no-repeat;
+}
+
+.socialButton span {
+    letter-spacing: normal;
+}
+
+.socialButton .count {
+    display: block;
+    height: 23px;
+    padding: 8px 0 0 0;
+    margin: 0 0 9px 0;
+    }
+
+.socialButton .txt {
+    display: block;
+    height: 17px;
+    text-align: left;
+    padding: 3px 0 0 0;
+    margin: 0 0 0 21px;
+    font-size: 11px;
+}
+
+.socialButton:hover {
+    text-decoration: none;
+}
+
+.facebookButton         {background-position: 0 0; width: 68px;}
+.facebookButton:hover   {background-position: 0 -60px;}
+.facebookButton .txt    {color: #3B5998;}
+
+.googleplusButton       {background-position: -68px 0; width: 50px;}
+.googleplusButton:hover {background-position: -68px -60px;}
+
+.wykopButton            {background-position: -118px 0; width: 56px;}
+.wykopButton:hover      {background-position: -118px -60px;}
+.wykopButton .plus      {color: #ff5917;}
+
+.rssButton              {background-position: -174px 0; width: 50px;}
+.rssButton:hover        {background-position: -174px -60px;}
+
+.twitterButton          {background-position: -224px 0; width: 55px;}
+.twitterButton:hover    {background-position: -224px -60px;}
+
+.diggButton             {background-position: -279px 0; width: 50px;}
+.diggButton:hover       {background-position: -279px -60px;}
+
+.vkontakteButton        {background-position: -329px 0; width: 50px;}
+.vkontakteButton:hover  {background-position: -329px -60px;}
+
+/*
+	Small Button
+*/
+
+.socialSmallButton {
+    display: inline-block;
+	margin-left: 8px;
+	vertical-align: top;
+    height: 20px;
+    text-align: center;
+    line-height: normal;
+    padding: 0;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: url(../img/social-small.png) 0 0 no-repeat;
+}
+
+.socialSmallButton .count {
+	border-top: 1px solid #D1D1D1;
+	border-right: 1px solid #D1D1D1;
+	border-bottom: 1px solid #D1D1D1;
+	display: inline-block;
+	height: 16px;
+	padding: 2px 7px 0 7px;
+	background-color: #fff;
+	font-size: 11px;
+	-webkit-border-top-right-radius: 2px;
+	-webkit-border-bottom-right-radius: 2px;
+	-khtml-border-radius-topright: 2px;
+	-khtml-border-radius-bottomright: 2px;
+	-moz-border-radius-topright: 2px;
+	-moz-border-radius-bottomright: 2px;
+	border-top-right-radius: 2px
+	border-bottom-right-radius: 2px;
+	}
+
+.socialSmallButton:hover {
+    text-decoration: none;
+}
+
+.facebookSmallButton       		{background-position: 0 0;}
+.facebookSmallButton:hover 		{background-position: 0 -20px;}
+.facebookSmallButton .count		{margin-left: 15px;}
+.facebookSmallButton .txt    	{color: #3B5998; width: 52px; margin-left: 22px; font-size: 11px; text-align: left;}
+
+.googleplusSmallButton       	{background-position: 0 -40px;}
+.googleplusSmallButton:hover 	{background-position: 0 -60px;}
+.googleplusSmallButton .count	{margin-left: 39px;}
+
+.wykopSmallButton       		{background-position: 0 -80px;}
+.wykopSmallButton:hover 		{background-position: 0 -100px;}
+.wykopSmallButton .count		{margin-left: 67px; border-color: #a4c8e1;}
+.wykopSmallButton .plus     	{color: #ff5917;}
+
+.rssSmallButton       			{background-position: 0 -120px;}
+.rssSmallButton:hover 			{background-position: 0 -140px;}
+.rssSmallButton .count			{margin-left: 57px;}
+
+.twitterSmallButton       		{background-position: 0 -160px;}
+.twitterSmallButton:hover 		{background-position: 0 -180px;}
+.twitterSmallButton .count		{margin-left: 62px;}
+
+.twitterSmallButton       		{background-position: 0 -160px;}
+.twitterSmallButton:hover 		{background-position: 0 -180px;}
+.twitterSmallButton .count		{margin-left: 62px;}
+
+.diggSmallButton       			{background-position: 0 -200px;}
+.diggSmallButton:hover 			{background-position: 0 -220px;}
+.diggSmallButton .count			{margin-left: 57px;}
+
+.vkontakteSmallButton       	{background-position: 0 -240px;}
+.vkontakteSmallButton:hover 	{background-position: 0 -260px;}
+.vkontakteSmallButton .count	{margin-left: 57px;}
+
+
